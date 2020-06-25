@@ -1,0 +1,222 @@
+body {
+    background: #eee;
+    color: #555;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height:1.6em;
+    margin:0;	
+  }
+          
+  .container{
+      width: -1em;
+      margin: auto;
+      overflow: hidden;
+  }
+    
+  .eli{
+      color: #0000ff;
+  }
+
+  #navbar a:hover {
+    text-decoration: underline;
+  }
+
+  #navbar a:active {
+      text-decoration: none;
+  }
+  
+  #navbar{
+    background-color: #9e9e9e;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  #navbar ul{
+      padding: 0;
+      list-style:none;
+      float: right;
+      margin-right: 2rem;
+    }
+  #navbar li{
+      display:inline-block ;
+  }
+  
+  #church_name {
+    margin-right: 27rem;
+    float: left;
+    font-size: 1.2rem;
+    color: #f4f4f4;
+  
+  }
+ 
+  #navbar a{
+      font-size: 1rem;
+      padding-right: 1rem;
+      text-decoration: none;
+  }
+  
+  
+  .fff{
+      color:#fff;
+  
+  }
+
+  #name {
+      font-weight: 500;
+      color: #2196F3;
+      font-size: x-large;
+      font-family: Impact, Charcoal, sans-serif;
+      margin-bottom: 2rem;
+      border-bottom: 1rem solid #2196f3;
+      padding-bottom: 0.5rem;
+      margin-right: 1rem;
+  }
+
+
+  #sidenav {
+    height: 100%;
+    width: 15rem;
+    position: fixed;
+    z-index: 1;
+    top: 3.59rem;
+    left: 0;
+    background-color: #ccc;
+    overflow: hidden;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+}
+
+
+#sidenav span {
+    color: #000;
+    font-weight: 500;
+    font-size: larger;
+    
+}
+
+#sidenav span:hover {
+    font-weight: 600;
+    color: #af2663;
+}
+
+#sidenav span:active {
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+
+#sidenav li {
+    list-style-type: none;
+    margin-bottom: 0.8rem;
+    display: block;   
+}
+
+#sidenav ul {
+    margin-left: 0;
+    position: relative;
+    left: 0;
+ 
+}
+
+.contents {
+    margin-left: 20rem;
+    margin-top: 4rem;
+    color: #333;
+    
+}
+
+#cards {
+    margin-top: 2rem;
+}
+.card {
+    /*display: inline-block;
+    margin: 3rem 15.7rem 0 2.5rem;
+    margin: 2rem 1rem 2rem 1rem;*/
+    float: left;
+    border-radius: 0.5rem;
+    width: 11.7rem;
+    height: 15rem;
+    box-shadow: 3px 3px 20px #777;
+    /*padding: 0.5rem 3rem 2rem 1.5rem;*/
+    box-sizing: border-box;
+}
+
+.card .mainHead {
+    /*margin-top: 1rem;
+    margin-left: 1rem;*/
+    font-weight: bolder;
+    padding: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    color: #fff;
+    font-size: larger;
+    background-color: #2196F3;
+}
+
+.heads {
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: normal;
+}
+
+.totalNo {
+    margin-left: 1rem;
+    margin-top: 3rem;
+    margin-left: 4.5rem;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#mem {
+    margin: 2rem 2rem 2rem 1rem;
+}
+
+#wor {
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+#other {
+    margin: 2rem 0rem 2rem 1rem;
+}
+
+#member {
+    display: none;
+}
+
+.membersLists {
+    border: 1px solid #333;
+    margin-right: 10rem;
+    border-radius: 0.5rem;    
+}
+
+.memberList:last-child {
+    border: none;
+}
+
+
+.memberList {
+    font-size: larger;
+    margin-left: 0rem;
+    display: block;
+    margin-bottom: 0rem;
+    border-bottom: 1px solid #333;
+    margin-right: 0rem;
+    padding: 0.9rem;
+}
+
+
+.sn {
+    margin-right: 1rem;
+    color: #000;
+    font-weight: 700;    
+}
+
+#update {
+    display: none;
+}
+#study {
+    display: none;
+}
